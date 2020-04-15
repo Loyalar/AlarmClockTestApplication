@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="ALARM_PENDING_INTENT_REQUESTCODE">65738919</integer>
+    <integer name="ALARM_NOTIFICATION_IDENTIFIER">64641363</integer>
+    <integer name="BOOT_COMPLETED_NOTIFICATION_IDENTIFIER">44356709</integer>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:layout_height="match_parent"
+    tools:context="com.loyalar.alarmclocktestapplication.MainActivity">
+
+    <Button
+        android:id="@+id/button_select_alarm_timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#c4e3f3"
+        android:text="Select an alarm timer"/>
+
+    <TextView
+        android:id="@+id/textview_alarm_timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_select_alarm_timer"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/button_start_alarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_alarm_timer"
+        android:layout_marginTop="16dp"
+        android:background="#dff0d8"
+        android:visibility="gone"
+        android:text="Start alarm!"/>
+
+    <Button
+        android:id="@+id/button_cancel_alarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_start_alarm"
+        android:layout_marginTop="16dp"
+        android:background="#f2dede"
+        android:text="Cancel alarm"/>
+
+    <Button
+        android:id="@+id/button_check_alarm_is_running"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check if alarm is running"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/button_cancel_alarm"
+        android:background="#ff9800"/>
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AlarmClockTestApplication</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="DATASTORE_ALARM" translatable="false">ALARM</string>
+</resources>
